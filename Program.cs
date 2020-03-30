@@ -21,7 +21,7 @@ namespace HomeworkTemplate
                 float UserLongitude = float.Parse(task.UserLongitude, formatProvider);
                 float UserLatitude = float.Parse(task.UserLatitude, formatProvider);
                 UserLongitude = DegreesToRadians(UserLongitude);
-                UserLongitude = DegreesToRadians(UserLatitude);
+                UserLatitude = DegreesToRadians(UserLatitude);
 
                 int placesAmount = task.DefibliratorStorages.Length;
 
